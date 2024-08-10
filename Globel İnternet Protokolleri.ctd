@@ -1,0 +1,1094 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <bookmarks list=""/>
+  <node unique_id="8" master_id="0" name="Batuhan Duman Protokoller Notlar" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="3" is_bold="0" foreground="" ts_creation="1723216583" ts_lastsave="1723219497">
+    <node unique_id="14" master_id="0" name="Protokoller" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="1" is_bold="0" foreground="" ts_creation="1723216667" ts_lastsave="1723253110">
+      <rich_text>Protokoller, ağ üzerinde ortak kullanım için belirlenmis globel  kurallardır.</rich_text>
+      <node unique_id="16" master_id="0" name="21 FTP" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="2" is_bold="0" foreground="" ts_creation="1723216765" ts_lastsave="1723249840">
+        <rich_text>	FTP (File Transfer Protocol), ağ üzerimde dosyaları paylaşmak ve yönetmek için kullanılan bir protokoldür. </rich_text>
+        <node unique_id="17" master_id="0" name="FTP’nin Temel Özellikleri" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="5" is_bold="0" foreground="" ts_creation="1723216794" ts_lastsave="1723218236">
+          <rich_text weight="heavy">1. Dosya Transferi</rich_text>
+          <rich_text> : FTP, dosyaları bir bilgisayardan diğerine aktarabilmek için kullanılır. Bu dosyalar metin dosyaları, resimler, videolar veya yazılımlardır.
+ 
+</rich_text>
+          <rich_text weight="heavy">2. İki Mod</rich_text>
+          <rich_text> : FTP, iki ana modda çalısır :
+
+	</rich_text>
+          <rich_text scale="h3" foreground="#e8e6e3" weight="heavy">•</rich_text>
+          <rich_text weight="heavy"> Aktif Mod</rich_text>
+          <rich_text> : Sunucu, istemcinin belirlediği bir port üzerinden veri transferi yapar. İstemci, portu dinler. Sunucu bağlanır.
+	
+	</rich_text>
+          <rich_text scale="h3" foreground="#e8e6e3" weight="heavy">•</rich_text>
+          <rich_text weight="heavy"> Pasif Mod</rich_text>
+          <rich_text> : İstemci, sunucunun belirlediği port üzerinden veri transferi yapar. Bu mod, genellikle süvenlik duvarları veya NAT(Network Address Transkation) ayarlarında daha uygun bir çözüm sunar.
+	
+</rich_text>
+          <rich_text weight="heavy">3.  İki Tür İletişim</rich_text>
+          <rich_text> : FTP iki farklı bağlantı kullanır.	  
+
+   </rich_text>
+          <rich_text scale="h3" foreground="#e8e6e3" weight="heavy">•</rich_text>
+          <rich_text> </rich_text>
+          <rich_text weight="heavy">Kontrol Bağlantısı</rich_text>
+          <rich_text> : Sunucu ve istemci arasında komutların ve yanıtların iletildiği bağlantıdır. Genellikle TCP 21 portu üzerinde çalışır.
+</rich_text>
+          <rich_text weight="heavy">  
+   •Veri Bağlantısı</rich_text>
+          <rich_text> : Dosya transfer edildiği bağlantıdır. Port numarası, aktif veya pasif moda bağlı olarak değişir.</rich_text>
+        </node>
+        <node unique_id="18" master_id="0" name="FTP Nasıl Çalışır" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="5" is_bold="0" foreground="" ts_creation="1723217835" ts_lastsave="1723218263">
+          <rich_text weight="heavy">1. Bağlantı Kurulumu:</rich_text>
+          <rich_text> İstemci, sunucuya TCP bağlantısı kurar. Bu bağlantı, kontrol bağlantısı olarak bilinir ve genellikle port 21 üzerinden yapılır.
+
+</rich_text>
+          <rich_text weight="heavy">2. Kimlik Doğrulama:</rich_text>
+          <rich_text> İstemci, kullanıcı adı ve şifre bilgilerini sunucuya gönderir. Sunucu, bu bilgileri doğruladıktan sonra istemcinin yetkilerini belirler.
+
+</rich_text>
+          <rich_text weight="heavy">3. Komutlar ve Yanıtlar:</rich_text>
+          <rich_text> İstemci, dosya transferi, listeleme, silme veya diğer dosya yönetim işlemleri için komutlar gönderir. Sunucu, bu komutlara yanıt verir ve işlemleri gerçekleştirir.
+
+</rich_text>
+          <rich_text weight="heavy">4. Dosya Transferi:</rich_text>
+          <rich_text> Verinin gerçek transferi, veri bağlantısı üzerinden yapılır. Bu bağlantı, dosyaların aktarımını sağlar.
+</rich_text>
+        </node>
+        <node unique_id="19" master_id="0" name="FTP Nerelerde Kullanılır" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="5" is_bold="0" foreground="" ts_creation="1723218131" ts_lastsave="1723218249">
+          <rich_text weight="heavy">1. Web Sitesi Yönetimi:</rich_text>
+          <rich_text> Web geliştiricileri ve yöneticileri, web sunucularına dosya yüklemek, güncellemek veya indirmek için FTP kullanır.
+
+</rich_text>
+          <rich_text weight="heavy">2. Yazılım Dağıtımı:</rich_text>
+          <rich_text> Yazılım geliştiricileri, uygulama ve güncellemeleri FTP sunucuları aracılığıyla kullanıcılara sunar.
+
+</rich_text>
+          <rich_text weight="heavy">3. Yedekleme:</rich_text>
+          <rich_text> Kurumlar, önemli dosyaları yedeklemek için FTP sunucularını kullanabilirler.
+</rich_text>
+        </node>
+        <node unique_id="20" master_id="0" name="FTP Nasıl Kullanılır" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="5" is_bold="0" foreground="" ts_creation="1723218855" ts_lastsave="1723222816">
+          <rich_text>1. • </rich_text>
+          <rich_text weight="heavy">FTP İstemcisi Kullanma:</rich_text>
+          <rich_text>
+• </rich_text>
+          <rich_text weight="heavy">Grafik Arayüzlü İstemciler:</rich_text>
+          <rich_text> FileZilla, Cyberduck gibi programlar, kullanıcı dostu arayüzler sunar ve FTP bağlantısı kurmak için kullanıcı adı, şifre ve sunucu adresi gibi bilgileri girmenizi sağlar.
+• </rich_text>
+          <rich_text weight="heavy">Komut Satırı İstemcileri:</rich_text>
+          <rich_text> Windows ve Unix tabanlı sistemlerde ftp komutunu kullanarak komut satırından FTP bağlantısı kurabilirsiniz.
+ 
+• Örneğin :
+"ftp ftp.example.com"
+ardından kullanıcı adı ve şifre ile giriş yapabilirsiniz.
+
+• </rich_text>
+          <rich_text weight="heavy">Web Tarayıcısı Kullanma:</rich_text>
+          <rich_text> Bazı web tarayıcıları (örneğin, Firefox veya Chrome) FTP bağlantılarını destekler. Adres çubuğuna ftp://ftp.example.com şeklinde bir URL girerek bağlantı kurabilirsiniz.
+
+</rich_text>
+        </node>
+      </node>
+      <node unique_id="26" master_id="0" name="115 SFTP" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="2" is_bold="0" foreground="" ts_creation="1723239671" ts_lastsave="1723246863">
+        <rich_text>	SFTP (Secure File Transfer Protocol), ağ üzerinde dosyaları güvenli bir şekilde aktarmak için kullanılan bir protokoldür. SSH (Secure Shell) protokolü üzerinden çalışan SFTP, veri iletimi sırasında güvenliği sağlamak için şifreleme kullanır. SFTP, dosya transferi, yönetimi ve veri erişimi için güçlü bir çözüm sunar ve genellikle FTP (File Transfer Protocol) gibi eski dosya transfer protokollerinin yerine geçer.
+
+
+</rich_text>
+        <node unique_id="29" master_id="0" name="UYARI" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="4" is_bold="0" foreground="" ts_creation="1723239968" ts_lastsave="1723239993">
+          <rich_text>	SFTP,  SSH ve FTP'nin karması olup sifreleme ve güvenliği SSH'den alması ve FTP'nin vazifelerini yapması gereğince detaylı açıklamada bulunmadım.</rich_text>
+        </node>
+        <node unique_id="28" master_id="0" name="SFTP'nin Komutları" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="5" is_bold="0" foreground="" ts_creation="1723239946" ts_lastsave="1723240286">
+          <rich_text scale="h3" weight="heavy">SFTP ile İlgili Komutlar</rich_text>
+          <rich_text>
+
+SFTP, komut satırında veya grafik kullanıcı arayüzlerinde kullanılabilir. İşte bazı temel komutlar:
+
+
+• </rich_text>
+          <rich_text weight="heavy">Bağlanma:</rich_text>
+          <rich_text>
+
+</rich_text>
+          <rich_text family="monospace">sftp username@hostname
+</rich_text>
+          <rich_text>
+Bu komut, belirli bir kullanıcı adı ve ana bilgisayar adı ile SFTP sunucusuna bağlanır.
+
+
+• </rich_text>
+          <rich_text weight="heavy">Dosya Yükleme:</rich_text>
+          <rich_text>
+
+</rich_text>
+          <rich_text family="monospace">put localfile.txt</rich_text>
+          <rich_text>
+
+Bu komut, yerel dosyayı uzak sunucuya yükler.
+
+
+• </rich_text>
+          <rich_text weight="heavy">Dosya İndirme:</rich_text>
+          <rich_text>
+
+</rich_text>
+          <rich_text family="monospace">get remotefile.txt
+</rich_text>
+          <rich_text>
+Bu komut, uzak sunucudan dosyayı yerel makineye indirir.
+
+• </rich_text>
+          <rich_text weight="heavy">Dosya Silme:</rich_text>
+          <rich_text>
+
+</rich_text>
+          <rich_text family="monospace">rm remotefile.txt</rich_text>
+          <rich_text>
+
+Bu komut, uzak sunucudan dosyayı siler.
+
+
+• </rich_text>
+          <rich_text weight="heavy">Klasör Listeleme:</rich_text>
+          <rich_text>
+
+</rich_text>
+          <rich_text family="monospace">ls
+</rich_text>
+          <rich_text>
+Bu komut, uzak sunucudaki mevcut dizin içeriğini listelemenizi sağlar.
+
+
+• </rich_text>
+          <rich_text weight="heavy">Klasör Değiştirme:</rich_text>
+          <rich_text>
+
+</rich_text>
+          <rich_text family="monospace">cd directoryname
+</rich_text>
+          <rich_text>
+Bu komut, uzak sunucuda belirli bir dizine geçiş yapar.
+
+</rich_text>
+          <rich_text weight="heavy">
+• Gördüğünüz gibi SFTP'de dizinlerde gezinme, dosya silme, dosyaları listeleme gibi özellikler genel linux komutlarıyken dosya yükleme ve dosya indirme farklı sekildedir
+
+</rich_text>
+          <rich_text>
+</rich_text>
+        </node>
+      </node>
+      <node unique_id="21" master_id="0" name="22 SSH" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="2" is_bold="0" foreground="" ts_creation="1723219129" ts_lastsave="1723239542">
+        <rich_text>	SSH (Secure Shell), ağ üzerinden güvenli bir şekilde uzak bilgisayarlara erişim sağlamak için kullanılan bir protokoldür. 1990'ların ortalarında Tatu Ylönen tarafından geliştirilen SSH, özellikle güvenli iletişim ve uzaktan yönetim için yaygın olarak kullanılır. SSH, veri şifrelemesi kullanarak iletişim güvenliğini sağlar ve genellikle sistem yönetimi, dosya transferi ve çeşitli ağ hizmetleri için kullanılır.
+
+
+
+
+
+
+
+
+</rich_text>
+        <node unique_id="22" master_id="0" name="SSH'nin Temel Özellikleri" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="5" is_bold="0" foreground="" ts_creation="1723219637" ts_lastsave="1723221294">
+          <rich_text weight="heavy">1. Güvenli İletişim:</rich_text>
+          <rich_text>
+
+</rich_text>
+          <rich_text weight="heavy">• Şifreleme:</rich_text>
+          <rich_text> SSH, verileri ve komutları şifreleyerek ağ üzerinden güvenli bir şekilde iletilmesini sağlar. Bu, veri gizliliğini ve bütünlüğünü korur.
+
+</rich_text>
+          <rich_text weight="heavy">• Kimlik Doğrulama:</rich_text>
+          <rich_text> SSH, hem istemci hem de sunucu tarafında kimlik doğrulama yaparak yetkisiz erişimi engeller. Kullanıcı adı ve şifre, veya daha güvenli yöntemler olan SSH anahtarları kullanılır.
+  
+  
+</rich_text>
+          <rich_text weight="heavy">2. </rich_text>
+          <rich_text> </rich_text>
+          <rich_text weight="heavy">Şifreleme Protokolleri:  </rich_text>
+          <rich_text>SSH, bağlantıyı güvenli hale getirmek için çeşitli şifreleme algoritmaları (AES, 3DES, vb.) kullanır. Ayrıca, veri bütünlüğünü sağlamak için mesaj doğrulama kodları (MAC) kullanılır.
+
+
+</rich_text>
+          <rich_text weight="heavy">3. İki Temel Sürüm:</rich_text>
+          <rich_text>
+
+</rich_text>
+          <rich_text weight="heavy">•</rich_text>
+          <rich_text> S</rich_text>
+          <rich_text weight="heavy">SH-1:</rich_text>
+          <rich_text> İlk sürümüdür ve günümüzde güvenlik açıkları nedeniyle genellikle önerilmez.
+</rich_text>
+          <rich_text weight="heavy">• SSH-2:</rich_text>
+          <rich_text> Daha güvenli ve güncel sürümdür. Çoğu modern SSH uygulaması SSH-2 kullanır.
+
+
+
+
+</rich_text>
+        </node>
+        <node unique_id="23" master_id="0" name="SSH Nerelerde Kullanılır" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="5" is_bold="0" foreground="" ts_creation="1723221451" ts_lastsave="1723222230">
+          <rich_text weight="heavy">1. Uzaktan Sistem Yönetimi</rich_text>
+          <rich_text>
+ 
+	</rich_text>
+          <rich_text scale="h3" foreground="#e8e6e3" weight="heavy">•</rich_text>
+          <rich_text weight="heavy"> Sunucu Yönetimi :</rich_text>
+          <rich_text> Sistem töneticileri ve gelistiricileri, sunuculara uzaktan erişim sağlamak ve komutlar çalıştırmak için SSH kullanır. Bu, bir sunucunun komut satırına erişim sağlar ve sistem yönetimini kolaylaştırır.
+	
+</rich_text>
+          <rich_text weight="heavy">	</rich_text>
+          <rich_text scale="h3" foreground="#e8e6e3" weight="heavy">•</rich_text>
+          <rich_text weight="heavy"> Konfigürasyon ve Bakım :</rich_text>
+          <rich_text> Sistem konfisürasyonları yapmak , yazılım yüklemek veya sorun gidermek için kullanılır.
+	
+	
+</rich_text>
+          <rich_text weight="heavy">2. Dosya Transferi</rich_text>
+          <rich_text>
+
+ </rich_text>
+          <rich_text scale="h3" foreground="#e8e6e3" weight="heavy">•</rich_text>
+          <rich_text weight="heavy"> SCP (Secure Copy Protocol) :</rich_text>
+          <rich_text> SSH protokolü üzerinden dosyaları güvenli bir şekilde kopyalamak için kullanılır. 
+ 
+ </rich_text>
+          <rich_text scale="h3" foreground="#e8e6e3" weight="heavy">•</rich_text>
+          <rich_text weight="heavy"> SFTP (SSH File Transfer Protocol) :</rich_text>
+          <rich_text> SSH üzerinden dosya transferi ve yönetimi sağlar. Genellikle sftp komutu ile kullanılır.
+
+
+</rich_text>
+          <rich_text weight="heavy"> 3. Güvenli Tünelleme</rich_text>
+          <rich_text>
+ 
+• </rich_text>
+          <rich_text weight="heavy">Port Tünelleme :</rich_text>
+          <rich_text> SSH, yerel portları uzak sunuculara yönlendirmek için port tünelleme yapabilir. Bu, güvenli veri transferi için kullanılabilir.
+
+
+</rich_text>
+          <rich_text weight="heavy">4. Yüksek Güvenlikli Erişim</rich_text>
+          <rich_text>
+
+• </rich_text>
+          <rich_text weight="heavy">VPN Alternatifi :</rich_text>
+          <rich_text> SSH, VPN benzeri bir erişim sağlayabilir, özellikle güvenli bağlantı gerektiren durumlarda.
+
+
+
+
+
+
+</rich_text>
+        </node>
+        <node unique_id="24" master_id="0" name="SSH Nasıl Kullanılır" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="5" is_bold="0" foreground="" ts_creation="1723222297" ts_lastsave="1723239457">
+          <rich_text weight="heavy">1. SSH İstemcisi Kurulumu:</rich_text>
+          <rich_text>
+• </rich_text>
+          <rich_text weight="heavy">Linux/MacOS:</rich_text>
+          <rich_text> Genellikle sistemle birlikte gelir. Terminal üzerinden doğrudan ssh komutunu kullanabilirsiniz.
+• </rich_text>
+          <rich_text weight="heavy">Windows:</rich_text>
+          <rich_text> Windows 10 ve sonrası sürümlerde, PowerShell veya Windows Terminal üzerinden ssh komutunu kullanabilirsiniz. Alternatif olarak, PuTTY gibi üçüncü taraf SSH istemcileri de kullanılabilir.
+
+
+</rich_text>
+          <rich_text weight="heavy">2. Bağlantı Kurma:</rich_text>
+          <rich_text>
+•  SSH bağlantısı kurmak için terminalde aşağıdaki komutu kullanabilirsiniz:
+ “ </rich_text>
+          <rich_text family="monospace">ssh username@hostname</rich_text>
+          <rich_text> “
+
+</rich_text>
+          <rich_text weight="heavy">Örnek:</rich_text>
+          <rich_text> Bir sunucuya bağlanmak için:
+"</rich_text>
+          <rich_text family="monospace">ssh server@192.168.1.10</rich_text>
+          <rich_text> "
+
+
+</rich_text>
+          <rich_text weight="heavy">3.</rich_text>
+          <rich_text> </rich_text>
+          <rich_text weight="heavy">Anahtar Tabanlı Kimlik Doğrulama:</rich_text>
+          <rich_text>
+• </rich_text>
+          <rich_text weight="heavy">Anahtar Çifti Oluşturma:</rich_text>
+          <rich_text> Anahtar çiftleri oluşturmak için ssh-keygen komutunu kullanabilirsiniz:
+  “ssh-keygen -t rsa -b 4096”
+
+ • </rich_text>
+          <rich_text weight="heavy">Anahtarı Sunucuya Kopyalama:</rich_text>
+          <rich_text> Public anahtarınızı sunucuya kopyalamak için:
+“ </rich_text>
+          <rich_text family="monospace">ssh-copy-id username@hostname”
+</rich_text>
+          <rich_text>
+</rich_text>
+          <rich_text weight="heavy">4. SSH Konfig├╝rasyonu:</rich_text>
+          <rich_text>
+
+ • SSH istemcileri genellikle </rich_text>
+          <rich_text family="monospace">~/.ssh/config</rich_text>
+          <rich_text> dosyasını kullanarak yapılandırma sağlar. Örneğin:
+ 
+		 Host myserver
+	 	    HostName 192.168.1.10
+ 		    User john
+  		    Port 22
+  	
+  Bu, ssh myserver komutuyla hızlı bağlantı sağlar.
+
+
+
+
+
+
+
+
+
+
+• 
+
+
+
+
+
+
+
+</rich_text>
+        </node>
+        <node unique_id="25" master_id="0" name="Güvenlik Önlemleri" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="5" is_bold="0" foreground="" ts_creation="1723239542" ts_lastsave="1723239592">
+          <rich_text weight="heavy">1. Şifreleme:</rich_text>
+          <rich_text> SSH, güçlü şifreleme kullanarak verileri korur, ancak güvenlik anahtarlarının güvenliğini de sağlamak önemlidir.
+
+</rich_text>
+          <rich_text weight="heavy">2. Anahtar Yönetimi:</rich_text>
+          <rich_text> Güçlü ve güvenli anahtarlar kullanmak ve düzenli olarak anahtarları güncellemek önemlidir.
+
+</rich_text>
+          <rich_text weight="heavy">3. SSH Konfigürasyonu:</rich_text>
+          <rich_text> Güvenlik duvarları ve SSH yapılandırma dosyasında güvenlik ayarlarını dikkatlice yapmak (örneğin, “PermitRootLogin no” gibi ayarlarla kök erişimini devre dışı bırakmak) güvenliği artırabilir.
+
+</rich_text>
+          <rich_text weight="heavy">4. Güncellemeler:</rich_text>
+          <rich_text> SSH yazılımını güncel tutmak, bilinen güvenlik açıklarına karşı korunmanıza yardımcı olur.
+
+</rich_text>
+        </node>
+      </node>
+      <node unique_id="40" master_id="0" name="23 Telnet" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="2" is_bold="0" foreground="" ts_creation="1723246902" ts_lastsave="1723247027">
+        <rich_text>	</rich_text>
+        <rich_text weight="heavy">Telnet</rich_text>
+        <rich_text>, uzak bilgisayarlarla metin tabanlı bir bağlantı kurmak için kullanılan bir ağ protokolüdür. Genellikle uzak sistemlere erişim sağlamak ve bu sistemlerde komutlar çalıştırmak için kullanılır. Telnet, 1960'ların sonunda geliştirilen bir protokoldür ve geniş bir kullanım alanına sahipti, ancak günümüzde güvenlik açıkları nedeniyle daha az yaygın olarak kullanılmaktadır.
+
+
+</rich_text>
+        <node unique_id="41" master_id="0" name="Uyarı" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="4" is_bold="0" foreground="" ts_creation="1723246959" ts_lastsave="1723246997">
+          <rich_text weight="heavy">• Günümüzde Telnet yerine SSH kullanıldığı için sadece temel bilgi verdim.</rich_text>
+        </node>
+      </node>
+      <node unique_id="30" master_id="0" name="25 SMTP" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="2" is_bold="0" foreground="" ts_creation="1723243911" ts_lastsave="1723244749">
+        <rich_text>     SMTP (Simple Mail Transfer Protocol), e-posta mesajlarının bir kaynaktan (örneğin, bir kullanıcıdan) bir alıcıya (örneğin, başka bir kullanıcı) iletilmesini sağlayan bir protokoldür. Bu protokol, e-posta sunucuları arasındaki iletişimi ve e-postaların iletilmesini yönetir.
+
+
+
+</rich_text>
+        <node unique_id="31" master_id="0" name="SMTP'nin İşleyişi" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="5" is_bold="0" foreground="" ts_creation="1723244405" ts_lastsave="1723244409">
+          <rich_text>1.  Kullanıcı bir e-posta oluşturur ve gönderme komutu verir. E-posta istemcisi sunucuya bağlanır.
+
+2. E-posta istemcisinden gelen e-posta bilgilerini alır ve işlermlerini gerçekleştirir. SMTP sunucusu, e-portayı hedef posta sunucusuna yönlendirir.
+
+3. SMTP sunucusu, e-postayı hedef sunucusuna iletmek için diğer SMTP sunucularıyla iletişim kurar. E-posta, hedef sunucunun adresine yönlendirilir.
+
+4. E-posta hedef sunucu tarafından alınır ve burda saklanır. Kullanıcı daha sonra bu e-postayı POP3 veya IMAP gibi bir protokol aracılığıyla alabilir.</rich_text>
+        </node>
+        <node unique_id="32" master_id="0" name="SMTP Güvenliği" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="5" is_bold="0" foreground="" ts_creation="1723244749" ts_lastsave="1723244774">
+          <rich_text>	SMTP protokolü başlangıçta şifreleme ve kimlik doğrulama mekanizmalarına sahip değildi. Ancak, güvenliği artırmak için çeşitli yöntemler eklenmiştir:
+	
+• </rich_text>
+          <rich_text weight="heavy">STARTTLS</rich_text>
+          <rich_text>: SMTP bağlantısını şifrelemek için kullanılan bir komuttur. İstemci ve sunucu arasında güvenli bir bağlantı sağlar.
+
+• </rich_text>
+          <rich_text weight="heavy">SMTP-AUTH</rich_text>
+          <rich_text>: Kullanıcı kimlik doğrulaması için kullanılır. E-posta istemcileri, SMTP sunucusuna bağlanmadan önce kimlik doğrulaması yapar.
+
+• </rich_text>
+          <rich_text weight="heavy">SSL/TLS</rich_text>
+          <rich_text>: E-posta iletimini şifrelemek için kullanılır ve verilerin güvenli bir şekilde gönderilmesini sağlar.
+
+
+
+</rich_text>
+        </node>
+      </node>
+      <node unique_id="33" master_id="0" name="110 POP3 - 143 IMAP" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="2" is_bold="0" foreground="" ts_creation="1723244876" ts_lastsave="1723245322">
+        <rich_text weight="heavy">	POP3 ve IMAP birbirlerine benzeyen ve tek bir farkı olan epostaları okumak için gelistirilmis protokollerdir. Bu nedenle bu iki protokol aynı baslık altında ele alınmıstır.</rich_text>
+        <rich_text>
+	
+	
+</rich_text>
+        <rich_text weight="heavy">																		110 POP3  (Post Office Protocol) </rich_text>
+        <rich_text>
+																		
+	</rich_text>
+        <rich_text weight="heavy">POP3</rich_text>
+        <rich_text>, e-posta alımını ve yönetimini sağlayan bir protokoldür. E-posta istemcileri (MUA - Mail User Agent) ile e-posta sunucuları (MTA - Mail Transfer Agent) arasında e-posta iletimi için kullanılır. 													
+																		
+																		 </rich_text>
+        <rich_text weight="heavy">143</rich_text>
+        <rich_text> </rich_text>
+        <rich_text weight="heavy">IMAP (Internet Message Access Protocol)</rich_text>
+        <rich_text>
+	</rich_text>
+        <rich_text weight="heavy">IMAP</rich_text>
+        <rich_text>, e-posta alımı ve yönetimi için kullanılan bir protokoldür ve POP3'ün yerine geçebilecek şekilde daha gelişmiş özellikler sunar. IMAP, e-posta istemcileri ile e-posta sunucuları arasında e-posta iletimini ve yönetimini sağlar. 
+
+
+
+
+
+
+</rich_text>
+        <node unique_id="34" master_id="0" name="POP3 ve IMAP'ın Ayrıldığı nokta" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="5" is_bold="0" foreground="" ts_creation="1723245200" ts_lastsave="1723245409">
+          <rich_text weight="heavy">POP3 (Post Office Protocol 3)</rich_text>
+          <rich_text> ve </rich_text>
+          <rich_text weight="heavy">IMAP (Internet Message Access Protocol)</rich_text>
+          <rich_text>, e-posta alımını yönetmek için kullanılan iki farklı protokoldür. Her ikisi de e-postaları sunucudan almanıza ve yönetmenize yardımcı olur, ancak farklı özellikler ve kullanım senaryoları sunar. İşte POP3 ve IMAP arasındaki ana farklar:
+
+• </rich_text>
+          <rich_text weight="heavy">POP3</rich_text>
+          <rich_text>:
+◇ E-postalar, sunucudan indirildikten sonra genellikle sunucudan silinir.
+◇ E-postalar yerel cihazda (bilgisayar, telefon, vb.) saklanır ve yerel depolama alanını kullanır.
+◇ E-postalar genellikle bir cihazda okunur ve yönetilir; diğer cihazlardan erişim zorlaşabilir.
+
+
+• </rich_text>
+          <rich_text weight="heavy">IMAP</rich_text>
+          <rich_text>:
+◇ E-postalar, sunucuda saklanır ve e-posta istemcileri arasında senkronize edilir.
+◇ E-postalar sunucuda kalır, böylece birden fazla cihazdan erişilebilir.
+◇ Cihazlar arasında e-posta düzeni ve okuma durumu senkronize edilir.
+
+
+
+
+
+</rich_text>
+        </node>
+      </node>
+      <node unique_id="35" master_id="0" name="80 HTTP - 443 HTTPS" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="2" is_bold="0" foreground="" ts_creation="1723245565" ts_lastsave="1723246669">
+        <rich_text>	</rich_text>
+        <rich_text weight="heavy">HTTP</rich_text>
+        <rich_text> </rich_text>
+        <rich_text weight="heavy">(Hyper Text Transfer Protocol) ,</rich_text>
+        <rich_text> web tarayıcıları ile web sunucuları arasında veri iletimi için kullanılan temel bir protokoldür. </rich_text>
+        <rich_text weight="heavy">HTTPS</rich_text>
+        <rich_text> </rich_text>
+        <rich_text weight="heavy">(Hyper Text Transfer Protocol Secure)</rich_text>
+        <rich_text>, HTTP’nin güvenli bir versiyonudur ve veri iletimi sırasında ek güvenlik sağlar. HTTPS, HTTP'nin üzerine SSL/TLS şifreleme protokollerini ekler. </rich_text>
+        <node unique_id="36" master_id="0" name="Temel Özellikler" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="5" is_bold="0" foreground="" ts_creation="1723246200" ts_lastsave="1723246400">
+          <rich_text>	</rich_text>
+          <rich_text weight="heavy">																	80 HTTP ( Hyper Text Transfer Protocol)</rich_text>
+          <rich_text>
+																		
+• </rich_text>
+          <rich_text weight="heavy">Veri İletimi</rich_text>
+          <rich_text>: HTTP, web sayfalarını ve diğer web içeriğini istemciden sunucuya ve sunucudan istemciye iletir.
+
+• </rich_text>
+          <rich_text weight="heavy">Bağlantı</rich_text>
+          <rich_text>: HTTP, genellikle TCP/IP üzerinden çalışır ve istemci ile sunucu arasındaki bağlantıyı yönetir.
+
+• </rich_text>
+          <rich_text weight="heavy">Stateless (Durumsuz)</rich_text>
+          <rich_text>: HTTP, her istekten sonra durumu korumaz. Her istekte, tarayıcı ve sunucu arasında bağlantı kurulur ve bu bağlantı isteğin tamamlanmasının ardından kapatılır.
+
+
+</rich_text>
+          <rich_text weight="heavy">																    	443 HTTPS ( Hyper Text Transfer Protocol Secure)</rich_text>
+          <rich_text>
+
+• </rich_text>
+          <rich_text weight="heavy">Şifreleme</rich_text>
+          <rich_text>: HTTPS, verilerin şifrelenmesini sağlar. SSL (Secure Sockets Layer) veya TLS (Transport Layer Security) protokollerini kullanarak, web tarayıcısı ile web sunucusu arasındaki verilerin şifrelenmesini ve korunmasını sağlar.
+
+• </rich_text>
+          <rich_text weight="heavy">Kimlik Doğrulama</rich_text>
+          <rich_text>: HTTPS, sunucunun kimliğini doğrular ve istemciye sunucunun doğru olduğuna dair bir güvence verir. Bu, kullanıcıların sahte sitelere karşı korunmasına yardımcı olur.
+
+• </rich_text>
+          <rich_text weight="heavy">Veri Bütünlüğü</rich_text>
+          <rich_text>: HTTPS, verilerin iletim sırasında değiştirilmediğinden veya bozulmadığından emin olur.
+
+
+
+
+
+
+
+																			</rich_text>
+        </node>
+        <node unique_id="37" master_id="0" name="Port Numaraları" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="5" is_bold="0" foreground="" ts_creation="1723246425" ts_lastsave="1723246432">
+          <rich_text>	</rich_text>
+          <rich_text weight="heavy">Port 80</rich_text>
+          <rich_text>: HTTP'nin varsayılan port numarasıdır. Tarayıcılar ve sunucular arasındaki HTTP bağlantıları bu port üzerinden yapılır.
+	
+	</rich_text>
+          <rich_text weight="heavy">Port 443</rich_text>
+          <rich_text>: HTTPS'nin varsayılan port numarasıdır. HTTPS bağlantıları bu port üzerinden güvenli bir şekilde yapılır.</rich_text>
+        </node>
+        <node unique_id="38" master_id="0" name="Güvenlik" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="5" is_bold="0" foreground="" ts_creation="1723246464" ts_lastsave="1723246533">
+          <rich_text>	</rich_text>
+          <rich_text weight="heavy">																	</rich_text>
+          <rich_text>
+</rich_text>
+          <rich_text weight="heavy">• 80 HTTP ( Hyper Text Transfer Protocol)</rich_text>
+          <rich_text> : HTTP, verileri şifrelemez. Bu, iletilen bilgilerin (örneğin kullanıcı adı, şifre, kişisel veriler) şifrelenmeden, ağ üzerinde düz metin olarak gönderildiği anlamına gelir.
+
+
+										  </rich_text>
+          <rich_text weight="heavy">443 HTTPS ( Hyper Text Transfer Protocol Secure)</rich_text>
+          <rich_text>
+										 
+• </rich_text>
+          <rich_text weight="heavy">Şifreleme</rich_text>
+          <rich_text>: HTTPS, verilerin şifrelenmesini sağlar. Bu, verilerin ağ üzerinden gönderilirken korunmasını ve yetkisiz kişilerin verileri okumasını engeller.
+
+• </rich_text>
+          <rich_text weight="heavy">Kimlik Doğrulama</rich_text>
+          <rich_text>: SSL/TLS sertifikaları, sunucunun kimliğini doğrulamak için kullanılır. Sertifikalar, genellikle güvenilir bir sertifika otoritesi tarafından verilir.
+
+</rich_text>
+        </node>
+        <node unique_id="39" master_id="0" name="HTTP ve HTTPS Arasındaki Farklar" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="5" is_bold="0" foreground="" ts_creation="1723246669" ts_lastsave="1723246751">
+          <rich_text weight="heavy">1.</rich_text>
+          <rich_text scale="h4" weight="heavy"> Güvenlik:</rich_text>
+          <rich_text>
+</rich_text>
+          <rich_text weight="heavy">• HTTP</rich_text>
+          <rich_text>: Şifreleme sağlamaz ve veriler ağ üzerinde düz metin olarak iletilir. Bu, verilerin gizliliğini ve bütünlüğünü tehlikeye atabilir.
+</rich_text>
+          <rich_text weight="heavy">• HTTPS</rich_text>
+          <rich_text>: SSL/TLS kullanarak verileri şifreler ve sunucunun kimliğini doğrular. Bu, verilerin güvenliğini ve gizliliğini korur.
+
+
+</rich_text>
+          <rich_text weight="heavy">2.</rich_text>
+          <rich_text scale="h4" weight="heavy"> Performans:</rich_text>
+          <rich_text>
+</rich_text>
+          <rich_text weight="heavy">• HTTP</rich_text>
+          <rich_text>: Şifreleme ek bir yük getirmediği için genellikle biraz daha hızlıdır. Ancak, bu performans avantajı güvenlik riskleri ile dengelenmelidir.
+</rich_text>
+          <rich_text weight="heavy">• HTTPS</rich_text>
+          <rich_text>: Şifreleme ve kimlik doğrulama işlemleri nedeniyle biraz daha fazla işlem gücü ve zaman gerektirebilir. Ancak, modern donanımlar ve optimizasyon teknikleri bu etkiyi minimize edebilir.
+
+
+</rich_text>
+          <rich_text weight="heavy">3. </rich_text>
+          <rich_text scale="h4" weight="heavy">SEO ve Kullanıcı Güveni:</rich_text>
+          <rich_text>
+</rich_text>
+          <rich_text weight="heavy">• HTTP</rich_text>
+          <rich_text>: Google ve diğer arama motorları, HTTPS'yi güvenli bir bağlantı olarak değerlendirdiği için HTTP siteleri arama sonuçlarında dezavantajlı olabilir. Ayrıca, kullanıcılar HTTPS bağlantılarında daha güvende hissetme eğilimindedir.
+</rich_text>
+          <rich_text weight="heavy">• HTTPS</rich_text>
+          <rich_text>: Arama motorları tarafından daha güvenilir olarak değerlendirilir ve SEO avantajı sağlar. Kullanıcılar, HTTPS bağlantıları üzerinde daha fazla güvenlik algısına sahip olabilir.
+
+
+</rich_text>
+          <rich_text weight="heavy">4. </rich_text>
+          <rich_text scale="h4" weight="heavy">Sertifikalar:</rich_text>
+          <rich_text>
+</rich_text>
+          <rich_text weight="heavy">• HTTP</rich_text>
+          <rich_text>: Sertifika gerektirmez.
+</rich_text>
+          <rich_text weight="heavy">• HTTPS</rich_text>
+          <rich_text>: Güvenli bağlantılar için SSL/TLS sertifikaları gereklidir. Sertifikalar genellikle bir sertifika otoritesi (CA) tarafından sağlanır ve sunucuda kurulur.
+
+</rich_text>
+        </node>
+      </node>
+      <node unique_id="42" master_id="0" name="53 DNS" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="2" is_bold="0" foreground="" ts_creation="1723247063" ts_lastsave="1723247610">
+        <rich_text>	</rich_text>
+        <rich_text weight="heavy">DNS (Domain Name System)</rich_text>
+        <rich_text>, internetin telefon rehberi olarak düşünülebilir. Temel işlevi, kullanıcıların web sitelerine ve diğer internet hizmetlerine erişimini kolaylaştırmak için alan adlarını (domain names) IP adreslerine dönüştürmektir. DNS, insanların anlayabileceği alan adları ile internetin anlayabileceği IP adresleri arasında köprü sağlar.
+
+
+
+
+
+
+
+
+</rich_text>
+        <node unique_id="43" master_id="0" name="DNS'in Temel Özellikleri" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="5" is_bold="0" foreground="" ts_creation="1723247154" ts_lastsave="1723247371">
+          <rich_text weight="heavy">1. Alan Adı Dönüştürme</rich_text>
+          <rich_text>:
+• DNS, bir web sitesinin alan adını (örneğin, "www.examle.com") IP adresine (örneğin, "192.0.2.1") çevirir. Bu IP adresi, internet üzerinde veri iletimi için kullanılır.
+
+
+</rich_text>
+          <rich_text weight="heavy">2. Hiyerarşik Yapı</rich_text>
+          <rich_text>:
+• DNS, hiyerarşik bir yapıya sahiptir. Bu yapı, çeşitli düzeylerdeki alan adları ve ad sunucularından oluşur:
+
+▪</rich_text>
+          <rich_text weight="heavy">Köktüzen (Root) Sunucuları</rich_text>
+          <rich_text>: DNS ağının en üst düzeyidir ve alan adları için yetkilendirilmiş köktüzen sunucuları içerir.
+
+▪ </rich_text>
+          <rich_text weight="heavy">Üst Düzey Alan (TLD) Sunucuları</rich_text>
+          <rich_text>: Üst düzey alan adlarını (.com, .org, .net gibi) yönetir.
+
+▪ </rich_text>
+          <rich_text weight="heavy">Alan Adı Sunucuları</rich_text>
+          <rich_text>: Belirli alan adları ve alt alanları hakkında bilgi sağlar.
+
+
+</rich_text>
+          <rich_text weight="heavy">3.</rich_text>
+          <rich_text> </rich_text>
+          <rich_text weight="heavy">İstek-Yanıt Protokolü</rich_text>
+          <rich_text>:
+• DNS istekleri, kullanıcıların tarayıcıları veya diğer uygulamalar tarafından yapılır ve bu istekler DNS sunucuları tarafından yanıtlanır. Tarayıcılar, alan adını çözmek için DNS sunucularına sorgular gönderir.
+
+
+</rich_text>
+          <rich_text weight="heavy">4. Önbellekleme</rich_text>
+          <rich_text>:
+• DNS, performansı artırmak için sorgu sonuçlarını önbelleğe alır. Bu, aynı alan adı için yapılan tekrar eden sorguların daha hızlı yanıtlanmasını sağlar.
+
+
+
+
+</rich_text>
+        </node>
+        <node unique_id="44" master_id="0" name="DNS'in Kayıt Türleri" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="5" is_bold="0" foreground="" ts_creation="1723247419" ts_lastsave="1723247524">
+          <rich_text>• </rich_text>
+          <rich_text weight="heavy">A Kaydı</rich_text>
+          <rich_text>: Bir alan adını IPv4 adresine dönüştürür. Örneğin, www.example.com'un IP adresi.
+
+• </rich_text>
+          <rich_text weight="heavy">AAAA Kaydı</rich_text>
+          <rich_text>: Bir alan adını IPv6 adresine dönüştürür.
+
+• </rich_text>
+          <rich_text weight="heavy">CNAME Kaydı</rich_text>
+          <rich_text>: Bir alan adını başka bir alan adına yönlendirir. Örneğin, www.example'u example.com'a yönlendirir.
+
+• </rich_text>
+          <rich_text weight="heavy">MX Kaydı</rich_text>
+          <rich_text>: E-posta sunucuları için yönlendirme sağlar. E-posta trafiğinin hangi sunucular tarafından alındığını belirtir.
+
+• </rich_text>
+          <rich_text weight="heavy">NS Kaydı</rich_text>
+          <rich_text>: Alan adının hangi DNS sunucuları tarafından yönetildiğini belirtir.
+
+• </rich_text>
+          <rich_text weight="heavy">PTR Kaydı</rich_text>
+          <rich_text>: IP adreslerinden alan adlarına dönüş sağlar. Genellikle ters DNS sorguları için kullanılır.
+
+• </rich_text>
+          <rich_text weight="heavy">SOA Kaydı</rich_text>
+          <rich_text>: Bir alan adının yönetim bilgilerini içerir. Bölge bilgileri ve yetkili sunucu hakkında bilgi verir.
+
+
+
+</rich_text>
+        </node>
+        <node unique_id="45" master_id="0" name="DNS Güvenlik" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="5" is_bold="0" foreground="" ts_creation="1723247610" ts_lastsave="1723247617">
+          <rich_text>• </rich_text>
+          <rich_text weight="heavy">DNSSEC (DNS Security Extensions)</rich_text>
+          <rich_text>: DNS kayıtlarının güvenliğini sağlamak için kullanılan bir uzantıdır. DNSSEC, DNS yanıtlarının bütünlüğünü ve doğruluğunu sağlamak için dijital imzalar kullanır.
+
+• </rich_text>
+          <rich_text weight="heavy">DDoS Saldırıları</rich_text>
+          <rich_text>: DNS sunucuları, dağıtılmış hizmet reddi (DDoS) saldırılarına karşı hassas olabilir. Bu tür saldırılar, DNS sunucularını hedef alarak hizmetin kesilmesine neden olabilir. Saldırganların kullandığı sey DNS cevaplarının isteklerden yaklasık 3 kat daha ağır trafik olusturmasıdır. Böylece IP Spofing yöntemi ile DDO saldırıları yapılabilmektedir
+
+• </rich_text>
+          <rich_text weight="heavy">Phishing ve Man-in-the-Middle Saldırıları</rich_text>
+          <rich_text>: DNS spoofing veya cache poisoning gibi saldırılar, kullanıcıları kötü amaçlı sitelere yönlendirebilir. Bu tür risklere karşı korunmak için güvenilir DNS sağlayıcıları ve güvenlik önlemleri kullanılmalıdır.
+
+
+
+</rich_text>
+        </node>
+      </node>
+      <node unique_id="46" master_id="0" name="135 RPC" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="2" is_bold="0" foreground="" ts_creation="1723247777" ts_lastsave="1723250324">
+        <rich_text>	RPC, uzak bir bilgisayarda bir işlevi veya komutu, sanki kendi bilgisayarınızda çalışıyormuş gibi kullanmanızı sağlar. Kısacası, bir bilgisayarın (istemci) başka bir bilgisayarda (sunucu) bulunan bir işlevi çalıştırmasına izin verir.
+
+
+</rich_text>
+        <node unique_id="47" master_id="0" name="RPC'nin Temel Özellikleri" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="5" is_bold="0" foreground="" ts_creation="1723248539" ts_lastsave="1723248916">
+          <rich_text weight="heavy">1. Uzaktan İşlem Yapma</rich_text>
+          <rich_text> :
+ • RPC, yerel makinede çalışıyormuş gibi, uzak bir makinede bir işlevi çağırmanızı sağlar. Bu, uygulama geliştiricilerinin dağınık sistemlerde işlemleri birbirine bağlamasını kolaylaştırır.
+
+
+</rich_text>
+          <rich_text weight="heavy">2. Seffaflık</rich_text>
+          <rich_text> :
+ • RPC çağrıları, yerel prosedür çağrılarından farksız görünür. Kullanıcı ve geliştirici, ağ üzerindeki iletişimi ve veri aktarımını düşünmeden uzak işlemleri gerçekleştirebilir.
+
+
+</rich_text>
+          <rich_text weight="heavy">3. Protokol ve Serileştirme </rich_text>
+          <rich_text>:
+ • RPC çağrıları, uzak sunucuya veri gönderilmeden önce serileştirilir (veri paketlerine dönüştürülür). Sunucu, bu verileri alır, işleme koyar ve sonucu istemciye geri gönderir.
+
+
+</rich_text>
+          <rich_text weight="heavy">4. İtemci-Sunucu Modeli</rich_text>
+          <rich_text> :
+ • RPC, genellikle istemci-sunucu modelinde çalışır. İstemci, uzak bir işlevi çağırırken, sunucu bu işlevi gerçekleştirir ve sonuçları istemciye iletir.
+
+
+
+
+</rich_text>
+        </node>
+        <node unique_id="50" master_id="0" name="RPC'nin Çalışma Prensibi" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="5" is_bold="0" foreground="" ts_creation="1723249014" ts_lastsave="1723249076">
+          <rich_text weight="heavy">1. İstemci Tarafı</rich_text>
+          <rich_text>:
+ • İstemci, bir uzak işlevi çağırmak istediğinde, bu çağrı yerel bir prosedür çağrısı gibi görünür. RPC istemcisi, işlevin adı ve gerekli parametrelerle birlikte bir istek oluşturur.
+
+
+</rich_text>
+          <rich_text weight="heavy">2.  Serileştirme</rich_text>
+          <rich_text>:
+ • İstemci tarafından oluşturulan istek, veri paketlerine dönüştürülür (serileştirme). Bu veri, ağ üzerinden uzak sunucuya gönderilir.
+
+
+</rich_text>
+          <rich_text weight="heavy">3.  Ağ Üzerinden İletim</rich_text>
+          <rich_text>:
+ • Serileştirilmiş veri, ağ üzerinden uzak sunucuya iletilir. Bu iletim sırasında, verinin ağ üzerinde güvenli ve doğru bir şekilde iletilmesi sağlanır.
+
+</rich_text>
+          <rich_text weight="heavy">
+4. Sunucu Tarafı</rich_text>
+          <rich_text>:
+ • Uzak sunucu, gelen istek verisini alır ve deseralize eder (veri paketlerinden orijinal formata döndürür). Sunucu, uzak işlevi çağırır ve işlevi çalıştırır.
+
+
+</rich_text>
+          <rich_text weight="heavy">5. Sonuç ve Geri Gönderim</rich_text>
+          <rich_text>:
+ • İşlem tamamlandığında, sunucu işlevin sonucunu serileştirir ve istemciye geri gönderir. İstemci, gelen yanıtı deseralize eder ve sonuçları kullanır.
+
+
+
+
+</rich_text>
+        </node>
+        <node unique_id="48" master_id="0" name="RPC'nin Türleri" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="5" is_bold="0" foreground="" ts_creation="1723248785" ts_lastsave="1723248823">
+          <rich_text weight="heavy">1.  XML-RPC</rich_text>
+          <rich_text>:
+ • XML-RPC, XML formatında veri gönderimi ve alımı sağlar. HTTP üzerinden çalışır ve XML ile serileştirilmiş veri kullanır.
+
+
+</rich_text>
+          <rich_text weight="heavy">2.  JSON-RPC</rich_text>
+          <rich_text>:
+ •   JSON-RPC, JSON formatında veri gönderimi ve alımı sağlar. HTTP veya diğer protokoller üzerinden çalışır ve JSON ile serileştirilmiş veri kullanır.
+
+
+3.  </rich_text>
+          <rich_text weight="heavy">gRPC</rich_text>
+          <rich_text>:
+ • gRPC, Google tarafından geliştirilen ve Protocol Buffers (protobuf) ile veri serileştirmesi yapan bir RPC protokolüdür. HTTP/2 üzerinde çalışır ve yüksek performanslı ve ölçeklenebilir iletişim sağlar.
+
+
+4. </rich_text>
+          <rich_text weight="heavy">Java RMI (Remote Method Invocation)</rich_text>
+          <rich_text>:
+ • Java tabanlı uygulamalar için bir RPC mekanizmasıdır. Java nesneleri arasında uzak prosedür çağrıları yapılmasını sağlar.
+
+
+</rich_text>
+        </node>
+        <node unique_id="49" master_id="0" name="RPC'nin Kullanım Alanları" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="5" is_bold="0" foreground="" ts_creation="1723248967" ts_lastsave="1723248978">
+          <rich_text>• </rich_text>
+          <rich_text weight="heavy">Dağıtık Sistemler</rich_text>
+          <rich_text>: Dağıtık sistemlerde, farklı makineler arasında işlevlerin ve verilerin paylaşımını yönetmek için kullanılır.
+
+• </rich_text>
+          <rich_text weight="heavy">Web Servisleri</rich_text>
+          <rich_text>: Web servislerinde, bir hizmete erişmek için HTTP üzerinden RPC çağrıları yapılabilir. Örneğin, XML-RPC ve JSON-RPC bu tür hizmetler için kullanılır.
+
+• </rich_text>
+          <rich_text weight="heavy">Mikroservisler</rich_text>
+          <rich_text>: Mikroservis mimarilerinde, farklı mikroservislerin birbirleriyle iletişim kurmasını sağlamak için RPC kullanılabilir.
+</rich_text>
+        </node>
+        <node unique_id="51" master_id="0" name="Güvenlik ve Performans" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="5" is_bold="0" foreground="" ts_creation="1723249135" ts_lastsave="1723249139">
+          <rich_text>• </rich_text>
+          <rich_text weight="heavy">Güvenlik</rich_text>
+          <rich_text>:
+◇ RPC iletişiminde güvenlik, şifreleme ve kimlik doğrulama yöntemleriyle sağlanmalıdır. Özellikle, verilerin ağ üzerinde güvenli bir şekilde iletilmesi ve yetkisiz erişimlerin önlenmesi önemlidir.
+
+
+• </rich_text>
+          <rich_text weight="heavy">Performans</rich_text>
+          <rich_text>:
+◇ RPC çağrıları, ağ gecikmeleri ve veri serileştirme/deserialize etme süreçleri nedeniyle yerel çağrılardan daha yavaş olabilir. Performans, uygulamanın gereksinimlerine göre optimize edilmelidir.
+
+
+
+
+
+</rich_text>
+        </node>
+        <node unique_id="52" master_id="0" name="Riskler" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="5" is_bold="0" foreground="" ts_creation="1723249168" ts_lastsave="1723249172">
+          <rich_text>• </rich_text>
+          <rich_text weight="heavy">Ağ Gecikmeleri</rich_text>
+          <rich_text>: Uzak sunucu ile iletişim, ağ gecikmelerine neden olabilir, bu da uygulamanın yanıt süresini etkileyebilir.
+
+• </rich_text>
+          <rich_text weight="heavy">Serileştirme/Deserialize Hataları</rich_text>
+          <rich_text>: Veri serileştirme ve deseralizasyon süreçlerinde hatalar olabilir, bu da veri kaybına veya işlevsel hatalara yol açabilir.
+
+• </rich_text>
+          <rich_text weight="heavy">Güvenlik Riskleri</rich_text>
+          <rich_text>: RPC çağrıları, şifrelenmemiş veriler ve yetkisiz erişim riski taşıyabilir. Bu nedenle, güvenlik önlemleri gereklidir.
+</rich_text>
+        </node>
+      </node>
+      <node unique_id="53" master_id="0" name="194-6667 IRC" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="2" is_bold="0" foreground="" ts_creation="1723249883" ts_lastsave="1723250396">
+        <rich_text>	</rich_text>
+        <rich_text weight="heavy">IRC (Internet Relay Chat)</rich_text>
+        <rich_text>, internet üzerinde gerçek zamanlı metin tabanlı sohbetler yapabilen bir protokoldür. 1988 yılında Jarkko Oikarinen tarafından geliştirilmiştir. IRC, kullanıcıların farklı konulara göre gruplanmış sohbet odalarında (kanallarda) veya bireysel olarak mesajlaşmalarını sağlar.
+
+
+</rich_text>
+        <node unique_id="54" master_id="0" name="IRC'nin Temel Özellikleri" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="5" is_bold="0" foreground="" ts_creation="1723249933" ts_lastsave="1723250052">
+          <rich_text weight="heavy">1. Gerçek Zamanlı Sohbet</rich_text>
+          <rich_text> :
+• IRC, kullanıcıların anlık olarak mesajlaşmasına olanak tanır. Sohbetler hemen iletilir ve kullanıcılar gerçek zamanlı olarak etkileşimde bulunabilir.
+
+
+</rich_text>
+          <rich_text weight="heavy">2. Kanal ve Grup Sohbetleri</rich_text>
+          <rich_text> :
+• IRC, kullanıcıların belirli konular üzerine sohbet edebileceği </rich_text>
+          <rich_text weight="heavy">kanallar</rich_text>
+          <rich_text> sunar. Kanallar genellikle bir # sembolü ile başlar (örneğin, #teknoloji).
+•  Kullanıcılar birden fazla kanala katılabilir ve her kanalda çeşitli konular hakkında sohbet edebilir.
+
+
+</rich_text>
+          <rich_text weight="heavy">3. Bireysel Mesajlaşma</rich_text>
+          <rich_text>:
+• Kullanıcılar, diğer kullanıcılarla özel mesajlaşma (PM) yapabilir, yani sadece belirli bir kişiyle özel sohbet edebilirler.
+
+
+</rich_text>
+          <rich_text weight="heavy">4. Sunucu ve Ağ Yapısı</rich_text>
+          <rich_text>:
+• IRC, birden fazla sunucunun birbirine bağlı olduğu bir ağ yapısına sahiptir. Bir IRC sunucusuna bağlanan kullanıcılar, diğer bağlı sunucuların kullanıcılarıyla da sohbet edebilirler.
+• IRC sunucuları genellikle birden fazla ağ oluşturur ve bu ağlar, çeşitli sohbet kanalları ve kullanıcıları içerir.
+
+
+</rich_text>
+          <rich_text weight="heavy">5. Komut Bazlı</rich_text>
+          <rich_text>:
+• IRC, komutlar kullanarak kontrol edilir. Kullanıcılar, kanallara katılmak, çıkmak, özel mesajlar göndermek ve diğer işlemleri komutlarla yaparlar. Örneğin, /join #kanal komutu bir kanala katılmanızı sağlar.
+
+
+
+
+</rich_text>
+        </node>
+        <node unique_id="55" master_id="0" name="IRC'nin Çalışma Prensibi" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="5" is_bold="0" foreground="" ts_creation="1723250158" ts_lastsave="1723250202">
+          <rich_text weight="heavy">1. Bağlantı Kurma</rich_text>
+          <rich_text>:
+• IRC istemcisi, bir IRC sunucusuna bağlanır. Bu bağlantı genellikle TCP/IP protokolü üzerinden gerçekleştirilir.
+
+
+</rich_text>
+          <rich_text weight="heavy">2. Kimlik Doğrulama</rich_text>
+          <rich_text>:
+• Kullanıcı adı ve takma ad (nickname) belirlenir. Bu, sohbet sırasında diğer kullanıcılar tarafından görülecek isimdir.
+
+
+</rich_text>
+          <rich_text weight="heavy">3.</rich_text>
+          <rich_text> </rich_text>
+          <rich_text weight="heavy">Kanal Katılımı</rich_text>
+          <rich_text>:
+• Kullanıcılar, çeşitli konularda sohbet etmek için kanallara katılabilirler. Kanallara katılmak için /join #kanal adı komutu kullanılır.
+
+
+</rich_text>
+          <rich_text weight="heavy">4.</rich_text>
+          <rich_text> </rich_text>
+          <rich_text weight="heavy">Mesajlaşma</rich_text>
+          <rich_text>:
+• Kullanıcılar, kanallarda diğer kullanıcılarla mesajlaşabilir veya özel olarak bireysel mesajlar gönderebilirler.
+
+
+</rich_text>
+          <rich_text weight="heavy">5. Mesaj Gönderme ve Alma</rich_text>
+          <rich_text>:
+• Gönderilen mesajlar hemen diğer kullanıcılara iletilir ve sohbet penceresinde görünür.
+
+
+</rich_text>
+        </node>
+        <node unique_id="56" master_id="0" name="Uyarı" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="4" is_bold="0" foreground="" ts_creation="1723250274" ts_lastsave="1723250275">
+          <rich_text>Günümüzde IRC sunucuları aktif olmadığı için daha az bilgi verdim.</rich_text>
+        </node>
+      </node>
+      <node unique_id="57" master_id="0" name="SSL - TLS" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="2" is_bold="0" foreground="" ts_creation="1723250470" ts_lastsave="1723252825">
+        <rich_text>	</rich_text>
+        <rich_text weight="heavy">SSL (Secure Sockets Layer)</rich_text>
+        <rich_text>, internet üzerinde veri iletimini şifrelemek ve güvence altına almak için kullanılan bir güvenlik protokolüdür. SSL, verilerin güvenli bir şekilde iletilmesini sağlamak amacıyla, istemci ve sunucu arasında güvenli bir bağlantı kurar. 
+	
+	</rich_text>
+        <rich_text weight="heavy">TLS (Transport Layer Security)</rich_text>
+        <rich_text>, internet üzerinden veri iletimini güvence altına almak için kullanılan bir şifreleme protokolüdür. TLS, veri iletiminin güvenliğini sağlamak amacıyla veriyi şifreler, kimlik doğrulaması yapar ve veri bütünlüğünü korur. </rich_text>
+        <node unique_id="58" master_id="0" name="Temel Özellikeri" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="5" is_bold="0" foreground="" ts_creation="1723250658" ts_lastsave="1723252526">
+          <rich_text>• </rich_text>
+          <rich_text weight="heavy">Şifreleme</rich_text>
+          <rich_text>: Her iki protokol de verileri şifreleyerek güvenli bir iletim sağlar.
+
+• </rich_text>
+          <rich_text weight="heavy">Kimlik Doğrulama</rich_text>
+          <rich_text>: Sunucunun kimliğini doğrulamak için dijital sertifikalar kullanılır.
+
+• </rich_text>
+          <rich_text weight="heavy">Veri Bütünlüğü</rich_text>
+          <rich_text>: Verilerin iletim sırasında değiştirilmediğini doğrulamak için çeşitli teknikler kullanılır.
+
+• </rich_text>
+          <rich_text weight="heavy">Geriye Dönük Uyumluluk</rich_text>
+          <rich_text>: TLS, eski SSL sürümleri ile geriye dönük uyumluluk sağlayabilir, ancak SSL'in modern güvenlik gereksinimlerini karşılamadığı için genellikle güncel TLS sürümleri tercih edilir.
+</rich_text>
+        </node>
+        <node unique_id="59" master_id="0" name="Kullanım Alanları" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="5" is_bold="0" foreground="" ts_creation="1723252756" ts_lastsave="1723252765">
+          <rich_text>• </rich_text>
+          <rich_text weight="heavy">HTTPS (HTTP Secure)</rich_text>
+          <rich_text>
+• </rich_text>
+          <rich_text weight="heavy">FTPS (FTP Secure)</rich_text>
+          <rich_text>
+• </rich_text>
+          <rich_text weight="heavy">IMAPS (IMAP Secure)</rich_text>
+          <rich_text>
+• </rich_text>
+          <rich_text weight="heavy">POP3S (POP3 Secure)</rich_text>
+          <rich_text>
+• </rich_text>
+          <rich_text weight="heavy">VPN (Virtual Private Network)</rich_text>
+          <rich_text>
+
+
+</rich_text>
+        </node>
+        <node unique_id="60" master_id="0" name="Aralarındaki Farklar" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="5" is_bold="0" foreground="" ts_creation="1723252825" ts_lastsave="1723252848">
+          <rich_text weight="heavy">1. Güvenlik</rich_text>
+          <rich_text>:
+ • </rich_text>
+          <rich_text weight="heavy">SSL</rich_text>
+          <rich_text>: SSL protokolleri zamanla çeşitli güvenlik açıkları ve zayıflıklar içermeye başlamıştır. Örneğin, SSL 3.0, POODLE saldırısına karşı savunmasızdır ve artık güvenli kabul edilmemektedir.
+ • </rich_text>
+          <rich_text weight="heavy">TLS</rich_text>
+          <rich_text>: TLS, SSL'in güvenlik açıklarını gidermek için geliştirilmiştir. TLS 1.0 ve sonrasındaki sürümler, daha güçlü şifreleme algoritmaları ve güvenlik iyileştirmeleri sunar. Özellikle TLS 1.2 ve TLS 1.3, en güncel güvenlik standartlarını sağlar.
+
+
+</rich_text>
+          <rich_text weight="heavy">2.</rich_text>
+          <rich_text> </rich_text>
+          <rich_text weight="heavy">Şifreleme Algoritmaları ve Protokoller</rich_text>
+          <rich_text>:
+ • </rich_text>
+          <rich_text weight="heavy">SSL</rich_text>
+          <rich_text>: Daha eski şifreleme algoritmaları kullanır ve bazı zayıflıkları olabilir. Örneğin, SSL 2.0 ve SSL 3.0, modern şifreleme ve güvenlik standartlarına göre yetersiz kalabilir.
+ • </rich_text>
+          <rich_text weight="heavy">TLS</rich_text>
+          <rich_text>: Daha gelişmiş ve güvenli şifreleme algoritmalarını destekler. TLS 1.2 ve TLS 1.3, modern şifreleme yöntemleri ve protokoller kullanarak güvenliği artırır.
+
+
+</rich_text>
+          <rich_text weight="heavy">3. Performans</rich_text>
+          <rich_text>:
+ • </rich_text>
+          <rich_text weight="heavy">SSL</rich_text>
+          <rich_text>: Daha eski sürümler, günümüzün performans standartlarına göre daha düşük performans gösterebilir.
+ • </rich_text>
+          <rich_text weight="heavy">TLS</rich_text>
+          <rich_text>: Özellikle TLS 1.3, performans iyileştirmeleri sağlar, daha hızlı bağlantı süreleri ve daha verimli veri şifreleme sunar.
+
+
+</rich_text>
+        </node>
+      </node>
+      <node unique_id="61" master_id="0" name="3306 MYSQL" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="2" is_bold="0" foreground="" ts_creation="1723253110" ts_lastsave="1723253245">
+        <rich_text>	</rich_text>
+        <rich_text weight="heavy">MySQL</rich_text>
+        <rich_text>, açık kaynak kodlu bir ilişkisel veritabanı yönetim sistemidir. Oracle Corporation tarafından geliştirilmekte olup, dünyada en çok kullanılan veritabanı sistemlerinden biridir. Özellikle web tabanlı uygulamalar ve küçük ile orta ölçekli projeler için popüler bir tercihtir.
+
+
+</rich_text>
+        <node unique_id="62" master_id="0" name="Temel Özellikler" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="5" is_bold="0" foreground="" ts_creation="1723253142" ts_lastsave="1723253218">
+          <rich_text weight="heavy">1. Açık Kaynak</rich_text>
+          <rich_text>:
+• MySQL, açık kaynak kodlu bir yazılımdır, bu da kullanıcıların yazılımı özgürce kullanmalarına, değiştirmelerine ve dağıtmalarına olanak tanır. Ayrıca, MySQL'in açık kaynak olması geniş bir topluluk desteği ve dokümantasyon sağlar.
+
+</rich_text>
+          <rich_text weight="heavy">
+2. Veritabanı Motorları</rich_text>
+          <rich_text>:
+• MySQL, farklı veritabanı motorları sunar (örneğin, InnoDB, MyISAM). Her motorun kendine özgü özellikleri ve performans avantajları vardır. InnoDB, ACID uyumlu işlemler ve yüksek performans için yaygın olarak tercih edilir.
+
+
+</rich_text>
+          <rich_text weight="heavy">3.</rich_text>
+          <rich_text> </rich_text>
+          <rich_text weight="heavy">Platform Bağımsızlığı</rich_text>
+          <rich_text>:
+• MySQL, Windows, Linux, macOS gibi birçok işletim sisteminde çalışabilir.
+
+
+</rich_text>
+          <rich_text weight="heavy">4. Kullanım Kolaylığı</rich_text>
+          <rich_text>:
+• MySQL, kullanıcı dostu arayüzleri ve yönetim araçları sunar (örneğin, phpMyAdmin) ve genellikle web geliştiricileri arasında popülerdir.
+
+
+</rich_text>
+          <rich_text weight="heavy">5. Performans ve Ölçeklenebilirlik</rich_text>
+          <rich_text>:
+• MySQL, yüksek performans ve ölçeklenebilirlik sunar, ancak büyük ölçekli uygulamalar ve çok sayıda eşzamanlı kullanıcı gerektiren durumlarda dikkatli bir yapılandırma ve optimizasyon gerektirebilir.
+
+
+</rich_text>
+        </node>
+        <node unique_id="63" master_id="0" name="Kullanım alanları" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="5" is_bold="0" foreground="" ts_creation="1723253245" ts_lastsave="1723253246">
+          <rich_text>• </rich_text>
+          <rich_text weight="heavy">Web Uygulamaları</rich_text>
+          <rich_text>: Özellikle LAMP (Linux, Apache, MySQL, PHP/Python/Perl) ve MERN (MongoDB, Express.js, React, Node.js) yığınlarında yaygın olarak kullanılır.
+
+• </rich_text>
+          <rich_text weight="heavy">Küçük ve Orta Ölçekli İşletmeler</rich_text>
+          <rich_text>: Genellikle maliyet etkinliği ve açık kaynak doğası nedeniyle tercih edilir.
+
+• </rich_text>
+          <rich_text weight="heavy">Açık Kaynak Projeleri</rich_text>
+          <rich_text>: Birçok açık kaynak projede temel veritabanı olarak kullanılır.
+
+
+
+</rich_text>
+        </node>
+      </node>
+    </node>
+  </node>
+</cherrytree>
